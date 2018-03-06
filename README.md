@@ -1,4 +1,4 @@
-#Very simple framework to implement and test generalized iteration policy algorithms
+# Very simple framework to implement and test generalized iteration policy algorithms
 
 This very simple framework leverages the Pycolab library to help you setup
 gridworld environments to test your control algorithms.
