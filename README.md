@@ -8,7 +8,7 @@ design games by givin their ascii art representation
 * TDControl: time difference control algorithm, currently Sarsa, QLearning and
 ExpectedSarsa (along with their double version, to mitigate maximization bias)
 are implemented
-* ActionValue: action-value function that an agen can use to implement its
+* ActionValue: action-value function that an agent can use to implement its
 behavior policy and which can be trained using TDControl
 * Agent: agent interacting with the GridWorld environment and following the
 behavior policy defined by ActionValue
