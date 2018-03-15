@@ -1,9 +1,9 @@
-from gridworld import GridWorld
-from agent import Agent
-from control import Sarsa, QLearning, ExpectedSarsa
-from train import Train
-from comparator import Comparator
-from action_value import TabularActionValue
+from environments.gridworld import GridWorld
+from agents.agent import Agent
+from controls.control import Sarsa, QLearning, ExpectedSarsa
+from utils.train import Train
+from utils.comparator import Comparator
+from policies.action_value import TabularActionValue
 
 # Train an agent in a episodic gridworld with windy tiles using Sarsa, QLearning
 # and ExpectedSarsa control algorithms
